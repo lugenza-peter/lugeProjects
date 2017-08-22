@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>HOME</title>
+<link rel="stylesheet" href="assignment.css" type="text/css">
+<style type="text/css">
+h1{
+text-align:center;
+background:#0B3A67;
+color:white;
+font-family:calibri;
+}
+li{
+display:inline-block;
+
+}
+ul{
+list-style-type:none;
+}
+a{
+margin:5px 20px;
+text-decoration:none;
+color:#0B3A67;
+}
+ul{
+text-align:center;
+background:white;
+padding:7px;
+color: rgba(0,0,0,0.6);
+text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+td{
+color: white;
+}
+</style>
+</head>
+<body>
+<img src = "logo.jpg">
+<h1>Udsm Student Data Upload</h1>
+
+<ul >
+<li><a href="main.html" title="Home Page">REGISTERATION</a></li>
+<li><a href="female.php" title="All Female">FEMALE STUDENTS</a></li>
+</ul>
+
+<form action="process.php" method="POST">
+<table align="center">
+<tr>
+<td>Firstname:</td>
+<td><input type="text" name="fname"></td>
+<td>Lastname:</td>
+<td><input type="text" name="lname"></td>
+</tr>
+
+<tr>
+<td>Year of Study:</td>
+<td><select name="Year">
+<option selected="selected" value="default">-Select year of study-</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="other">others</option>
+</select></td>
+
+<td>Program:</td>
+<td><select name="program" value="Select Program">
+<option selected="selected" value="default">-select program-</option>
+<option value="sandwich">BSWCS</option>
+<option value="BSC">BSNCS</option>
+<option value="PGD">BAED</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Department:</td>
+<td><select name="department" value="Select department">
+<option selected="selected" value="default">-select Department-</option>
+<option value="Computer Science & Engeneering">COMP scnc and engenerng</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>State:</td>
+<td><select name="State">
+<option selected="selected">-Select State-</option>
+<option value="rivers">Rukwa</option>
+<option value="enugu">Tabora</option>
+<option value="abia">Mwanza</option>
+<option value="imo">Morogoro</option>
+<option value="anambra">Mbeya</option>
+<option value="akwaibom">Dar es salaam</option>
+<option value="lagos">Lagos</option>
+<option value="osun">Nairobi</option>
+</select>
+<td>Nationality:</td>
+<td><select name= "Country">
+<option selected="selected">-Select Country-</option>
+<option value="nigeria">Nigeria</option>
+<option value="ghana">Ghana<ption>
+<option value="algerian">Algeria</option>
+<option value="Tanzania">Tanzania</option>
+</select></td>
+</tr>
+<tr>
+<td>Date of Birth (YYYY-MM-DD)</td>
+<td><input type="text" name="dob"></td>
+<td>Place Of Birth:</td>
+<td><input type="text" name="pob"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><select name="gender">
+<option selected="selected">Select Sex</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select>
+<td>Email:</td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr>
+<td>Marrital Status:</td>
+<td><select name="Maritalstatus">
+<option selected="selected">-Select Marital Status-</option>
+<option value="single">Single</option>
+<option value="Married">Married</option>
+</select>
+</td>
+<td>Religion:</td>
+<td><select name="Religion">
+<option selected="selected" value="default">-Select Religion-</option>
+<option value="christianity">Christianity</option>
+<option value="muslim">Muslim</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Contact Address:</td>
+<td><input type="text" name="cadd"></td>
+
+<tr>
+<td><input type="submit" name="submit" value="Submit"></td>
+<td><input type="Reset" name="Reset"value="Clear"></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
+</div>
+</body>
+</html>
